@@ -11,7 +11,7 @@ package dip.lab2.student.solution1;
  */
 public class TipManager {
     
-    public void doTip(Tip tip){
+    public final void doTip(Tip tip){
         
         
         System.out.println(tip.getTip());

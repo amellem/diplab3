@@ -58,12 +58,12 @@ public class BaggageServiceTipCalculator implements Tip {
     }
 
     @Override
-    public ServiceQuality getServiceQuality() {
+    public final ServiceQuality getServiceQuality() {
         return serviceQuality;
     }
 
     
-    public int getBagCount() {
+    public final int getBagCount() {
         return bagCount;
     }
 
@@ -77,12 +77,12 @@ public class BaggageServiceTipCalculator implements Tip {
     }
 
    
-    public double getBaseTipPerBag() {
+    public final double getBaseTipPerBag() {
         return baseTipPerBag;
     }
 
     
-    public void setBaseTipPerBag(double baseTipPerBag) {
+    public final void setBaseTipPerBag(double baseTipPerBag) {
         if(baseTipPerBag < 0) {
             throw new IllegalArgumentException(
                     "error: base tip must be greater than or equal to zero");

@@ -60,7 +60,7 @@ public class FoodServiceTipCalculator implements Tip{
     }
 
     @Override
-    public ServiceQuality getServiceQuality() {
+    public final ServiceQuality getServiceQuality() {
         return serviceQuality;
     }
 
