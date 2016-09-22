@@ -9,9 +9,9 @@ package dip.lab2.student.solution1;
  *
  * @author amellem
  */
-public class TipManager {
+public class TipCalculatorService {
     
-    public final void doTip(Tip tip){
+    public final void doTip(TipCalculator tip){
         
         
         System.out.println(tip.getTip());

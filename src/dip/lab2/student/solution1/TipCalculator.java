@@ -9,7 +9,7 @@ package dip.lab2.student.solution1;
  *
  * @author amellem
  */
-public interface Tip {
+public interface TipCalculator {
 
     public abstract ServiceQuality getServiceQuality();
 

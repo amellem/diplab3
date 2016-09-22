@@ -24,9 +24,9 @@ public class Startup {
  
     public static void main(String[] args) {
         
-        Tip tip = new FoodServiceTipCalculator(ServiceQuality.GOOD, 100.00);
+        TipCalculator tip = new FoodServiceTipCalculator(ServiceQuality.GOOD, 100.00);
         
-        TipManager tipManager = new TipManager();
+        TipCalculatorService tipManager = new TipCalculatorService();
         
         
         tipManager.doTip(tip);
