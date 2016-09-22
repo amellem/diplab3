@@ -11,7 +11,7 @@ DIP RULES:
     B. ABSTRACTIONS SHOULD NOT DEPEND UPON DETAILS. DETAILS
        SHOULD DEPEND UPON ABSTRACTIONS.
 
-DIP OBJECTIVES:
+DIP OBJECTIVES: 
     1. Reduce rigidity and fragility.
     2. Improve portability (code reuse, flexibility)
 
