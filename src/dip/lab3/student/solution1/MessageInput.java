@@ -1,11 +1,14 @@
 
 package dip.lab3.student.solution1;
 
-import javax.swing.JOptionPane;
 /**
  *
  * @author amellem
  */
 public interface MessageInput {
     
+    
+    public abstract String getInputMessage();
+    
+    public abstract String setInputMessage();
 }

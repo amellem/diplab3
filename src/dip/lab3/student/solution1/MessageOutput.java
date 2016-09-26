@@ -1,11 +1,12 @@
 
 package dip.lab3.student.solution1;
 
-import javax.swing.JOptionPane;
 /**
  *
  * @author amellem
  */
 public interface MessageOutput {
+    
+    public abstract void getOutMessage(String outputMessage);
     
 }
