@@ -7,6 +7,7 @@ package dip.lab3.student.solution1;
  */
 public interface MessageOutput {
     
+    // Output the users input
     public abstract void getOutMessage(String outputMessage);
     
 }

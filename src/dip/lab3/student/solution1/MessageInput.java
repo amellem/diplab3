@@ -7,8 +7,9 @@ package dip.lab3.student.solution1;
  */
 public interface MessageInput {
     
-    
+    // set the users input
+    public abstract void setInputMessage();
+    // return the users input
     public abstract String getInputMessage();
     
-    public abstract String setInputMessage();
 }

@@ -8,17 +8,19 @@ import javax.swing.JOptionPane;
  */
 public class GUIMessageInput implements MessageInput{
 
+    // String value to use for input and output
     private String inputMessage;
     
+    // return the user input
     @Override
-    public String getInputMessage(){
+    public final String getInputMessage(){
         return inputMessage;
     }
 
+    // get the user input
     @Override
-    public String setInputMessage() {
+    public final void setInputMessage() {
         inputMessage = JOptionPane.showInputDialog(null, "Please enter your message");
-        return inputMessage;
     }
 
  

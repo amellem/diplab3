@@ -8,8 +8,9 @@ import javax.swing.JOptionPane;
  */
 public class GUIMessageOutput implements MessageOutput{
 
+    // Output the user input
     @Override
-    public void getOutMessage(String outputMessage) {
+    public final void getOutMessage(String outputMessage) {
         JOptionPane.showMessageDialog(null,outputMessage);
     }
     
