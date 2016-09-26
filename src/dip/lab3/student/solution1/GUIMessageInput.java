@@ -4,7 +4,7 @@ package dip.lab3.student.solution1;
 import javax.swing.JOptionPane;
 /**
  *
- * @author amellem
+ * @author aerius
  */
 public class GUIMessageInput implements MessageInput{
 

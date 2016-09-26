@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author amellem
+ * @author aerius
  */
 public class ConsoleMessageInput implements MessageInput{
     Scanner keyboardInput = new Scanner(System.in);

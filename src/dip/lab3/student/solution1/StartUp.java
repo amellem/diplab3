@@ -3,7 +3,7 @@ package dip.lab3.student.solution1;
 
 /**
  *
- * @author amellem
+ * @author aerius
  */
 public class StartUp {
     public static void main(String[] args) {
@@ -13,6 +13,6 @@ public class StartUp {
            
            messageManager.doInputMessage(inputMessage, outputMessage);
       
-        
+         
     }
 }

@@ -3,7 +3,7 @@ package dip.lab3.student.solution1;
 
 /**
  *
- * @author amellem
+ * @author aerius
  */
 public interface MessageInput {
     
